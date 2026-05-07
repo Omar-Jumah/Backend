@@ -1,0 +1,83 @@
+.card {
+  flex: 1;
+  min-height: 118px;
+  border-radius: 16px;
+  padding: 18px 22px;
+  position: relative;
+  overflow: hidden;
+  text-align: right;
+  border: 1px solid rgba(145, 235, 255, 0.22);
+  box-shadow: 0 0 24px rgba(0, 245, 255, 0.10),
+    inset 0 0 22px rgba(255,255,255,0.035);
+}
+
+.circle {
+  background: radial-gradient(circle at 25% 35%, rgba(0,245,255,0.45), transparent 24%),
+    radial-gradient(circle at 45% 38%, rgba(255,0,190,0.22), transparent 25%),
+    linear-gradient(135deg, rgba(13,55,84,0.72), rgba(8,31,57,0.88));
+}
+
+.wave {
+  background: radial-gradient(circle at 18% 25%, rgba(255,0,190,0.38), transparent 26%),
+    radial-gradient(circle at 80% 75%, rgba(0,245,255,0.18), transparent 28%),
+    linear-gradient(135deg, rgba(16,42,77,0.78), rgba(9,31,58,0.9));
+}
+
+.line {
+  background: radial-gradient(circle at 20% 25%, rgba(255,0,190,0.32), transparent 26%),
+    radial-gradient(circle at 75% 80%, rgba(0,245,255,0.18), transparent 28%),
+    linear-gradient(135deg, rgba(14,48,82,0.78), rgba(8,30,56,0.9));
+}
+
+.title {
+  color: rgba(220,235,245,0.62);
+  font-size: 13px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.value {
+  color: #ffffff;
+  font-size: 34px;
+  margin: 10px 0 0;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.extra {
+  color: #54f59b;
+  font-size: 15px;
+  margin: 4px 0 0;
+  font-weight: 700;
+}
+
+.circleChart {
+  position: absolute;
+  bottom: 18px;
+  left: 24px;
+}
+
+.chartArea {
+  position: absolute;
+  bottom: 16px;
+  left: 18px;
+  right: 18px;
+  height: 45px;
+}
+
+.svgFull {
+  width: 100%;
+  height: 100%;
+}
+
+.cyanGlow {
+  filter: drop-shadow(0 0 10px #57e9ff);
+}
+
+.waveGlow {
+  filter: drop-shadow(0 0 8px #68eaff);
+}
+
+.greenGlow {
+  filter: drop-shadow(0 0 8px #39f59b);
+}
